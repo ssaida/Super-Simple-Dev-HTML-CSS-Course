@@ -1,1 +1,1 @@
-# Super-Simple-Dev-HTML-Course
+# Super-Simple-Dev-HTML-CSS-Course
