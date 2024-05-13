@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.h4, .j4, .i4{
+  margin: 8px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 8px;
+}
+.h4 button{
+  padding: 8px;
+}
+.j4 button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+}
+.j4 button:active{
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.i4 button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  transition: padding 0.5s;
+}
+.i4 button:hover{
+  padding: 20px 30px;
+}
