@@ -7,7 +7,7 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
-.h4, .j4, .i4{
+.h4, .j4, .i4, .k4{
   margin: 8px;
   background-color: #fff;
   display: inline-block;
@@ -29,10 +29,20 @@ body{
 .i4 button{
   background-color: green;
   color: #fff;
-  padding: 8px 20px;
+  padding: 8px 15px;
   border: none;
   transition: padding 0.5s;
 }
 .i4 button:hover{
-  padding: 20px 30px;
+  padding: 18px 36px;
+}
+.k4 button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  transition: padding 0.1s;
+}
+.k4 button:hover{
+  padding: 8px 20px;
 }
