@@ -7,3 +7,96 @@ body{
   background-color:  silver;
   font-family: sans-serif;
 }
+.a5 h2{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.b5{
+  width: 300px;
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+}
+.b5 button{
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.b5 span{
+  color: rgb(96, 96, 96);
+}
+.c5{
+  background-color: #fff;
+  width: 300px;
+  margin-top: 8px;
+}
+.c5 span{
+  color: red;
+  font-style: italic;
+}
+.d5{
+  background-color: #fff;
+  width: 500px;
+  margin-top: 8px;
+  text-align: center;
+}
+.d5 a{
+  text-decoration: none;
+}
+.challenge{
+  /* background-color: #fff; */
+  margin-top: 10px;
+}
+.challenge .e{
+  background-color: #fff;
+  width: 400px;
+  text-align: center;
+}
+.challenge .e span{
+  color: orange;
+}
+.challenge .e .price{
+  color: #000;
+}
+.challenge .e button{
+  background-color: blue;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 36px;
+}
+.challenge .f{
+  background-color: #fff;
+  width: 400px;
+  text-align: center;
+  margin-top: 8px;
+}
+.challenge .f .usd{
+  color: grey;
+  margin-left: 8px;
+}
+.challenge .f .plus{
+  color: green;
+}
+.challenge .f .after{
+  color: gray;
+}
+.challenge .f .minus{
+  color: red;
+}
+.challenge .g{
+  background-color: #fff;
+  margin-top: 8px;
+  width: 500px;
+}
+.challenge .g .hash{
+  color: grey;
+  margin-left: 8px;
+}
+.challenge .g .chp{
+  color: steelblue;
+}
