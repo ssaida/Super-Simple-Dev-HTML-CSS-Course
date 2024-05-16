@@ -34,14 +34,15 @@ body{
   transition: padding 0.5s;
 }
 .i4 button:hover{
-  padding: 18px 36px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 .k4 button{
   background-color: green;
   color: #fff;
   padding: 8px 15px;
   border: none;
-  transition: padding 0.1s;
+  transition: padding 0.5s;
 }
 .k4 button:hover{
   padding: 8px 20px;
