@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 10%;
+  font-size: 2rem;
+  background-color: silver;
+  font-family: sans-serif;
+}
+a{
+  cursor: pointer;
+  cursor: not-allowed;
+}
