@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  padding: 10%;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+p{
+  text-align: justify;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-indent: 2em;
+  line-height: 1.6;
+  /* letter-spacing: 0.2em; */
+  word-spacing: 2em;
+  font-weight:100;
+  font-style: oblique;
+}
+input, button{
+  font: inherit;
+}
