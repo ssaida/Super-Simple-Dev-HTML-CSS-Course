@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 body{
+  padding: 10%;
+  font-size: 2rem;
   background-color: silver;
   font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:focus{
+  opacity: 0.5;
+}
+a:active{
+  color: #333;
+}
+a:visited{
+  color: hsl(60, 70%, 50%);
 }
