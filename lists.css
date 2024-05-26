@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+  padding: 5% 10%;
+}
+ol{
+  list-style-type: decimal;
+  list-style-type: lower-alpha;
+  list-style-type: upper-alpha;
+  list-style-type: upper-roman;
+}
+ul{
+  list-style-type: circle;
+  list-style-type: disc;
+  text-align: center;
+  list-style-position: inside;
+  list-style-position: outside;
+  color: #00f;
+  line-height: 2;
+}
+li:nth-child(2){
+  color: red;
+}
+li::marker{
+  color: #000;
+  font-family: fantasy;
+  font-size: 1.5em;
+  content: '#';
+}
