@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 1.5rem;
+  background-color: silver;
+  text-align: justify ;
+  font-family: sans-serif;
+}
+.block{
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem; 
+  margin: 8px;
+}
+.left{
+  float: left;
+  margin: 1rem;
+}
+.right{
+  float: right;
+  margin: 1rem;
+}
+section{
+  background-color: rosybrown;
+  overflow:  ;
+}
