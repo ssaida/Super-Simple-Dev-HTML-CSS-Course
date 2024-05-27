@@ -26,6 +26,7 @@ body{
   margin: 1rem;
 }
 section{
+  padding: 1rem;
   background-color: rosybrown;
-  overflow:  ;
+  overflow:  hidden;
 }
