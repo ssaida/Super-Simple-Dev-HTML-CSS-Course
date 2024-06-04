@@ -8,3 +8,24 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
+.gate{
+  width: 750px;
+  height: 380px;
+  background: center / contain no-repeat url("/images/gate.png");
+  position: relative;
+  left: 200px;
+}
+.gate .goal-keeper{
+  width: 120px;
+  height: 200px;
+  background: center / contain no-repeat url("/images/goal-keeper.jpg");
+  position: relative;
+  left: 50%;
+}
+.gate img{
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
