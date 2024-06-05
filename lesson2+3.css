@@ -71,3 +71,29 @@ body{
   font-size: 18px;
   font-weight: bold;
 }
+.challenge{
+  background-color: #fff;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 10px;
+}
+.challenge a{
+  color: rgb(0, 113, 133);
+}
+.challenge .price{
+  color: rgb(0, 118, 0);
+}
+.challenge .add{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 24px;
+  font-size: 18px;
+}
+.challenge .buy{
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 24px;
+  font-size: 18px;
+}
