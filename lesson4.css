@@ -23,6 +23,7 @@ body{
 }
 .i4 button:hover{
   padding: 10px 25px;
+  cursor: pointer;
 }
 
 .j4 button{
@@ -38,6 +39,10 @@ body{
   margin-top:4px;
   margin-left: 4px;
   box-shadow: none;
+  cursor: pointer;
+}
+.j4 button:hover{
+  cursor: pointer;
 }
 .k4 button{
   background-color: green;
@@ -49,4 +54,5 @@ body{
 }
 .k4 button:hover{
   padding: 8px 25px;
+  cursor: pointer;
 }
