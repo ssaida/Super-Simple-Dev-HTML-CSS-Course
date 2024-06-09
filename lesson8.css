@@ -53,3 +53,53 @@ body{
   font-size: 18px;
   text-align: left;
 }
+.d{
+  background-color: #fff;
+  padding: 10px;
+  width: 500px;
+}
+.d .first, .d .last{
+  width: 220px;
+  padding: 8px 20px;
+}
+.d .email{
+  width: 445px;
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+.d button{
+  width: 445px;
+  margin-top: 10px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.e{
+  background-color: #fff;
+  padding: 10px;
+  width: 400px;
+  margin-top: 10px;
+}
+.e .pickup, .e .destination{
+  margin-bottom: 8px;
+  padding: 8px 20px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  display: block;
+  width: 100%;
+}
+.e .request{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+}
+.e .later{
+  color: #000;
+  background-color: whitesmoke;
+  border: none;
+  padding: 8px 20px; 
+}
