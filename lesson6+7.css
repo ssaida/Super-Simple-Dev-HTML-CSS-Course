@@ -5,6 +5,51 @@
   box-sizing: border-box;
 }
 body{
-  background-color: silver;
+  background-color: silver;  
   font-family: sans-serif;
+} 
+.a, .d{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  width: 300px;
+}
+.a img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.d input{
+  width: 100%;
+  border: none;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
+  border-radius: 24px;
+  padding: 8px 20px;
+}
+.f{
+  background-color: #fff;
+  width: 500px;
+  margin: 8px;
+  padding: 8px;
+}
+.f *{
+  margin-bottom: 8px;
+}
+.f input{
+  width: 100%;
+  padding: 8px 20px;
+  border: 2px solid #000;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.f button{
+  width: 100%;
+  border: none;
+  border-radius: 24px;
+  background-color: rgb(45, 45, 221);
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 18px;
 }
