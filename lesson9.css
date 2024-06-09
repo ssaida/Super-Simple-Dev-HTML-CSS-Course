@@ -58,3 +58,23 @@ body{
   border-radius: 24px;
   font-weight: bolder;
 }
+.f{
+  background-color: #fff;
+  width: 100%;
+  padding: 8px;
+}
+.col{
+  display: inline-block;
+  width: 300px;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.col img{
+  width: 100%;
+}
+.col button{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+}
