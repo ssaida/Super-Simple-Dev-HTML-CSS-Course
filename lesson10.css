@@ -7,6 +7,44 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
+.challenge{
+  background-color: #fff;
+  padding: 8px;
+}
+.challenge .col{
+  display: inline-block;
+  width: 300px;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  padding: 2px;
+}
+.challenge .col .picture img{
+  width: 100%;
+}
+.challenge .col .data{
+  width: 100%;
+}
+.challenge .data img{
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+.challenge .data .stats .info{
+  display: inline-block;
+  vertical-align: middle;
+}
+.challenge .data img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.challenge button{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+}
 .a{
   width: 300px;
   background-color: #fff;
