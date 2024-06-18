@@ -42,16 +42,15 @@ body{
 .c img{
   width: 300px;
   margin: 0 auto;
-  display: block;
 }
 .c input{
-  width: 60%;
+  width: 80%;
   text-align: center;
   border: none;
   box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
   padding: 8px 20px;
-  border-radius: 24px;
-  font-size: 18px;
+  border-radius: 36px;
+  font-size: 20px;
   text-align: left;
 }
 .d{
