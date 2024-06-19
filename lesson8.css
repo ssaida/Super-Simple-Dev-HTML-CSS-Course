@@ -134,3 +134,25 @@ body{
   border-radius: 4px;
   padding: 8px 20px;
 }
+.uber{
+  background-color: #fff;
+  width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.uber input{
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+.uber .request{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+}
+.uber .later{
+  padding: 8px 20px;
+  border: none;
+}
