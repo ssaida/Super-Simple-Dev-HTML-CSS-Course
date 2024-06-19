@@ -7,99 +7,52 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
-.a{
- display: inline-block; 
- background-color: #fff;
- padding: 10px;
-}
-.a input{
-  display: block;
-  margin-bottom: 4px;
-  padding: 8px 20px;
-  border-radius: 2px;
-}
-.b{
+.linkedin-signup, .twitter-text-box{
   background-color: #fff;
-  margin-top: 10px;
+  display: inline-block;
   width: 400px;
   padding: 10px;
 }
-.b p{
-  width: 70%;
-  display: inline-block;
-  vertical-align: middle;
+.linkedin-signup .email{
+  display: block;
 }
-.b button{
-  padding: 4px 10px;
-}
-.c{
-  width: 700px;
-  background-color: #fff;
-  padding: 10px;
-  margin: 20px auto;
-  text-align: center;
-}
-.c img{
-  width: 300px;
-  margin: 0 auto;
-}
-.c input{
-  width: 80%;
-  text-align: center;
+.linkedin-signup input{
+  width: 100%;
+  padding: 8px 20px;
   border: none;
-  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
-  padding: 8px 20px;
-  border-radius: 36px;
-  font-size: 20px;
-  text-align: left;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  margin: 8px 0;
 }
-.d{
-  background-color: #fff;
-  padding: 10px;
-  width: 500px;
+.linkedin-signup p{
+  margin: 8px 0;
 }
-.d .first, .d .last{
-  width: 220px;
-  padding: 8px 20px;
-}
-.d .email{
-  width: 445px;
-  padding: 8px 20px;
-  margin-top: 10px;
-}
-.d button{
-  width: 445px;
-  margin-top: 10px;
-  background-color: blue;
+.linkedin-signup button{
+  background-color: rgb(96, 96, 197);
   color: #fff;
   border: none;
+  border-radius: 24px;
   padding: 8px 20px;
-  border-radius: 8px;
+  width: 100%;
+  font-weight: bold;
   font-size: 18px;
 }
-.e{
-  background-color: #fff;
-  padding: 10px;
-  width: 400px;
-  margin-top: 10px;
+.twitter-text-box img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
 }
-.e .pickup, .e .destination{
-  margin-bottom: 8px;
-  padding: 8px 20px;
-  background-color: rgb(228, 228, 228);
+.twitter-text-box input{
   border: none;
-  display: block;
-  width: 100%;
+  font-size: 18px;
 }
-.e .request{
-  background-color: #000;
+.twitter-text-box button{
+  background-color: rgb(96, 96, 197);
   color: #fff;
   padding: 8px 20px;
   border: none;
-}
-.e .later{
-  color: #000;
-  background-color: whitesmoke;
-  border: none;
-  padding: 8px 20px; 
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: bold;
 }
