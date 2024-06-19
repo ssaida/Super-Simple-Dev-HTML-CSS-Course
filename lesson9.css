@@ -31,3 +31,27 @@ body{
   margin: 10px 0;
   padding: 10px;
 }
+.e{
+  width: 400px;
+  background-color: #fff;
+}
+.e img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.e input{
+  padding: 4px 10px;
+  border: none;
+  font-size: 18px;
+}
+.e button{
+  background-color: blue;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
