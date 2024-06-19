@@ -56,3 +56,81 @@ body{
   font-size: 18px;
   font-weight: bold;
 }
+.a{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 250px;
+  padding: 8px;
+}
+.a input{
+  display: block;
+  padding: 4px 10px;
+  margin: 4px 0;
+}
+.b{
+  background-color: #fff;
+  display: inline-block;
+  width: 500px;
+  padding: 10px;
+  margin: 8px 0;
+}
+.b p{
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+}
+.b button{
+  padding: 4px 10px;
+}
+.c{
+  display: block;
+  background-color: #fff;
+  width: 700px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.c img{
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+.c input{
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  width: 500px;
+  padding: 8px 20px;
+  font-size: 18px;
+  border-radius: 24px;
+  text-align: left;
+}
+.d{
+  background-color: #fff;
+  padding: 10px;
+  width: 400px;
+  margin: 10px 0;
+  text-align: center;
+}
+.d input[type="text"]{
+  display: inline-block;
+  padding: 8px 20px;
+  width: 180px;
+  border-radius: 4px;
+}
+.d input[type="email"]{
+  width: 96%;
+  margin: 8px 0;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+.d button{
+  background-color: blue;
+  color: #fff;
+  width: 96%;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
