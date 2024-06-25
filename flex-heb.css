@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  margin: 50px;
+  direction: rtl;
+  font-family: sans-serif;
+}
+.container{
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .child{
+  width: 100px;
+  height: 100%;
+  color: #fff;
+}
+.child:nth-child(1){
+  background-color: rebeccapurple;
+}
+.child:nth-child(2){
+  background-color: black;
+}
+.child:nth-child(3){
+  background-color: firebrick;
+}
