@@ -11,7 +11,24 @@ body{
   font-style: normal;
 }
 .columns{ 
-  column-count: 4;
-  column-width: 250px;
-  
+  /* column-count: 4;
+  column-width: 250px; */
+  columns: 4 200px; 
+  column-rule: 10px solid #000;
+}
+.columns p{
+  margin-top: 0;
+  text-align: justify;
+}
+.columns h2{
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  padding: 1rem;
+  break-inside: avoid;
+  break-before: column;
+  text-align: center;
+  column-span: all;
+  margin: 4px;
+  white-space: nowrap;
 }
