@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.uber, .amazon, .github, .bootstrap, .linkedin{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+.uber button{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 18px;
+  border: none;
+}
+.amazon button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 24px;
+  color: #000;
+  padding: 8px 24px;
+  font-size: 18px;
+}
+.github button{
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bootstrap .get{
+  background-color: rgb(121, 82, 179);
+  border: 1px solid rgb(121, 82, 179);
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bootstrap .download{
+  background-color: #fff;
+  border: 1px solid rgb(108, 117, 125);
+  color: rgb(108, 117, 125);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.linkedin .apply{
+  background-color: rgb(10, 102, 194);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.linkedin .save{
+  background-color: #fff;
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.challenge{
+  display: block;
+  background-color: #fff;
+  width: 400px;
+  margin-top: 10px;
+}
+.challenge a{
+  color: rgb(0, 113, 133);
+}
+.challenge h2{
+  margin: 8px 0;
+}
+.challenge .price{
+  color: rgb(0, 118, 0);
+  margin: 10px 0;
+}
+.challenge .add{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 24px;
+  color: #000;
+  padding: 8px 24px;
+  font-size: 18px;
+}
+.challenge .buy{
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 24px;
+  color: #000;
+  padding: 8px 24px;
+  font-size: 18px;
+}
