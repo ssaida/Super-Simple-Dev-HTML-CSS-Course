@@ -7,52 +7,37 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
-.h4, .i4, .j4, .k4{
-  background-color: #fff;
+.a, .b, .c, .d{
   display: inline-block;
-  padding: 10px;
+  background-color: #fff;
+  padding: 10px   ;
 }
-
-.i4 button{
+.b button{
   background-color: green;
   color: #fff;
-  font-size: 18px;
-  border: none;
   padding: 8px 20px;
-  transition: padding 0.2s;
+  transition: padding 0.4s;
 }
-.i4 button:hover{
-  padding: 10px 25px;
+.b button:hover{
   cursor: pointer;
+  padding: 12px 30px;
 }
-
-.j4 button{
+.c button{
   background-color: green;
   color: #fff;
-  font-size: 18px;
-  border: none;
-  padding: 8px 20px; 
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
-  transition: margin-top 0.4s, margin-left 0.4s;
+  padding: 8px 20px;
+  transition: margin 0.4s;
 }
-.j4 button:active{
-  margin-top:4px;
+.c button:hover{
+  margin-top: 4px;
   margin-left: 4px;
-  box-shadow: none;
-  cursor: pointer;
 }
-.j4 button:hover{
-  cursor: pointer;
-}
-.k4 button{
+.d button{
   background-color: green;
   color: #fff;
-  font-size: 18px;
-  border: none;
   padding: 8px 20px; 
-  transition: padding 0.1s;
+  transition: padding 0.4s;
 }
-.k4 button:hover{
-  padding: 8px 25px;
-  cursor: pointer;
+.d button:hover{
+  padding: 8px 24px;
 }
