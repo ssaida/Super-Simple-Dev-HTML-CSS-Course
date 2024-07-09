@@ -7,3 +7,67 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
+.d, .e{
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 8px;
+}
+.d input, .e input{
+  width: 80%;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.f{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 500px;
+  padding: 8px;
+}
+.f input{
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px 20px;
+  /* border: none; */
+  border-radius: 2px;
+  box-shadow: 2px 2px  0 2px rgba(0, 0, 0, 0.1);
+}
+.f button{
+  background-color: blue;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 24px;
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.tweeter-text-box{
+  background-color: #fff;
+  width: 400px;
+  margin-top: 8px;
+}
+.tweeter-text-box img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.tweeter-text-box input{
+  padding: 8px 20px;
+  border: none;
+  font-size: 18px;
+  width: 50%;
+}
+.tweeter-text-box button{
+  background-color: rgb(81, 154, 223);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
