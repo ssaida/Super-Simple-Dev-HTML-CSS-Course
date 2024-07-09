@@ -7,152 +7,26 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
-.linkedin-signup, .twitter-text-box{
-  background-color: #fff;
-  display: inline-block;
-  width: 400px;
-  padding: 10px;
-}
-.linkedin-signup .email{
-  display: block;
-}
-.linkedin-signup input{
-  width: 100%;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
-  margin: 8px 0;
-}
-.linkedin-signup p{
-  margin: 8px 0;
-}
-.linkedin-signup button{
-  background-color: rgb(96, 96, 197);
-  color: #fff;
-  border: none;
-  border-radius: 24px;
-  padding: 8px 20px;
-  width: 100%;
-  font-weight: bold;
-  font-size: 18px;
-}
-.twitter-text-box img{
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  vertical-align: middle;
-}
-.twitter-text-box input{
-  border: none;
-  font-size: 18px;
-}
-.twitter-text-box button{
-  background-color: rgb(96, 96, 197);
-  color: #fff;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 24px;
-  font-size: 18px;
-  font-weight: bold;
-}
 .a{
   background-color: #fff;
-  margin-top: 10px;
-  width: 250px;
+  width: 200px;
   padding: 8px;
 }
 .a input{
   display: block;
-  padding: 4px 10px;
   margin: 4px 0;
+  padding: 4px 10px;
+  width: 100%;
+  font-size: 18px;
 }
 .b{
   background-color: #fff;
-  display: inline-block;
-  width: 500px;
-  padding: 10px;
   margin: 8px 0;
+  padding: 8px;
+  width: 500px;
 }
 .b p{
   display: inline-block;
   width: 80%;
   vertical-align: middle;
-}
-.b button{
-  padding: 4px 10px;
-}
-.c{
-  display: block;
-  background-color: #fff;
-  width: 700px;
-  padding: 10px;
-  margin: 0 auto;
-}
-.c img{
-  display: block;
-  width: 400px;
-  margin: 0 auto;
-}
-.c input{
-  display: block;
-  margin: 0 auto;
-  border: none;
-  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
-  width: 500px;
-  padding: 8px 20px;
-  font-size: 18px;
-  border-radius: 24px;
-  text-align: left;
-}
-.d{
-  background-color: #fff;
-  padding: 10px;
-  width: 400px;
-  margin: 10px 0;
-  text-align: center;
-}
-.d input[type="text"]{
-  display: inline-block;
-  padding: 8px 20px;
-  width: 180px;
-  border-radius: 4px;
-}
-.d input[type="email"]{
-  width: 96%;
-  margin: 8px 0;
-  border-radius: 4px;
-  padding: 8px 20px;
-}
-.d button{
-  background-color: blue;
-  color: #fff;
-  width: 96%;
-  border: none;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 4px;
-  padding: 8px 20px;
-}
-.uber{
-  background-color: #fff;
-  width: 400px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 10px;
-}
-.uber input{
-  display: block;
-  width: 100%;
-  margin: 8px 0;
-  padding: 8px 20px;
-  border-radius: 4px;
-}
-.uber .request{
-  background-color: #000;
-  color: #fff;
-  padding: 8px 20px;
-}
-.uber .later{
-  padding: 8px 20px;
-  border: none;
 }
