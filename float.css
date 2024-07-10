@@ -26,7 +26,8 @@ body{
   float: right;
 }
 section{
-  overflow: hidden;
+  display: flow-root;
+  /* overflow: hidden; */
   background-color: lightpink;
   padding: 1rem;
 }
