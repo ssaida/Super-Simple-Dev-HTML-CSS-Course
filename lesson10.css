@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -7,100 +5,65 @@
 }
 body{
   background-color: silver;
-  font-family: "Oswald", sans-serif;
+  font-family: sans-serif;
 }
 .a{
   background-color: #fff;
-  width: 400px;
-  padding: 8px;
+  width: 420px;
+  padding: 4px;
+}
+.a .picture{
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
 }
 .a img{
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  vertical-align: middle;
-  margin-right: 8px;
+  border-radius: 40px;
 }
-.a .info{
+.a .data{
   display: inline-block;
+  width: 55%;
   vertical-align: middle;
-  width: 200px;
 }
 .a button{
-  background-color: blue;
+  background-color: rgb(103, 103, 196);
   color: #fff;
   padding: 8px 20px;
   border: none;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: bold;
 }
 .c{
   background-color: #fff;
+  width: 500px;
   padding: 8px;
-  margin: 8px 0;
 }
-.c .row{
-  padding: 8px;
-  display: inline-block;
-  width: 600px;
-}
-.c .row .image{
+.c .image{
   display: inline-block;
   width: 40%;
 }
-.c .row .image img{
+.c .image img{
   width: 100%;
 }
-.c .row .info{
+.c .info{
   display: inline-block;
-  width: 55%;
+  width: 58%;
   vertical-align: top;
 }
-.c .info p{
-  margin-top: 8px;
+.c .info .title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
-.challenge{
-  background-color: #fff;
-  width: 900px;
-  padding: 8px;
-}
-.challenge .col{
-  display: inline-block;
-  width: 30%;
-  box-shadow: 1px 1px 0 rgb(0, 0, 0);
-}
-.challenge .picture{
-  width: 100%;
-  padding: 2px;
-}
-.challenge .picture img{
-  width: 100%;
-}
-.challenge .details{
-  padding: 4px;
-}
-.challenge .details h3{
-  margin-bottom: 8px;
-}
-
-.challenge .details img{
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 8px;
-}
-.challenge .details .cat-info p{
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 20px;
-}
-.challenge .details button{
-  background-color: blue;
-  color: #fff;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
+.c .info .name{
   margin: 8px 0;
+  color: rgb(97, 97, 97);
+  font-size: 14px;
+}
+.c .info .stats{
+  margin-top: 8px;
+  font-size: 16px;
 }
