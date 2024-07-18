@@ -57,3 +57,78 @@ body{
   background-color: lightcoral;
   padding: 8px;
 }
+.e{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: #fff;
+  padding: 8px;
+}
+.e button{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 24px;
+}
+.f{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: blueviolet;
+}
+.f .left{
+  width: 100px;
+  color: #fff;
+}
+.f .middle{
+  flex: 1;
+  max-width: 450px;
+}
+.f .middle input{
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 24px;
+}
+.f .right{
+  width: 100px;
+}
+.f  .right button{
+  border: 1px solid #fff;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 8px 20px;
+}
+.g{
+  background-color: #fff;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+.g .left{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.g .left .data{
+  margin-left: 8px;
+}
+.g img{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.g .right button{
+  background-color: rgb(110, 110, 236);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
