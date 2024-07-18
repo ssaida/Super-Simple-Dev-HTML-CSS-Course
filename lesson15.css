@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a{
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  position: relative;
+}
+
+.x{
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  right: 10px;
+  bottom: 20px;
+  padding: 8px;
+  border-radius: 36px;
+}
+.b{
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 8px;
+  position: relative;
+  margin: 20px;
+}
+.b .x{
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  top: -5px;
+  left: -5px;
+}
+.b .gray{
+  position: absolute;
+  background-color: gray;
+  width: 100px;
+  height: 80px;
+  bottom: 8px;
+  right: 8px;
+}
+.b .gray .time{
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: #000;
+  color: #fff;
+  padding: 2px 4px;
+}
+.challenge{
+  background-image: url("/images/thumb-1.png");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.challenge .off{
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: #000;
+  width: 80px;
+  color: #fff;
+}
+.challenge .add{
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  text-align: center;
+}
+.challenge button{
+  background-color: gray;
+  padding: 8px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
