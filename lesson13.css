@@ -56,3 +56,74 @@ body{
   display: inline-block;
   margin: 2px;
 }
+.challenge{
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
+  margin-top: 8px;
+  padding: 8px;
+}
+.challenge .box{
+  display: flex;
+  justify-content: space-between;
+}
+.challenge .box .left{
+  width: 100px;
+}
+.challenge .box .left img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.challenge .box .right{
+  flex: 1;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.challenge .box .right .row1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f{
+  display: flex;
+  background-color: #fff;
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.f .left{
+  width: 100px;
+}
+.f .left img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.f .right{
+  flex: 1;
+}
+.f .right span{
+  font-size: 16px;
+  color: gray;
+}
+.f .youtube{
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.f .right .youtube .left{
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 20px 0 0 20px;
+}
+.f .right .youtube .right{
+  display: inline-block;
+  border: 1px solid gray;
+  height: 100px;
+  border-radius: 0 20px 20px 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
