@@ -10,89 +10,96 @@ body{
 .uber, .amazon, .github, .bootstrap, .linkedin{
   display: inline-block;
   background-color: #fff;
-  max-width: 500px;
   padding: 10px;
+  margin: 8px 0;
 }
 .uber button{
+  padding: 8px 20px;
   background-color: #000;
   color: #fff;
-  padding: 10px 20px;
+  font-size: 16px;
   border: none;
-  font-size: 18px;
 }
 .amazon button{
   background-color: rgb(255, 216, 20);
-  padding: 10px 30px;
   border: none;
-  font-size: 18px;
+  padding: 8px 30px;
   border-radius: 24px;
+  font-size: 16px;
 }
 .github button{
   background-color: rgb(46, 164, 79);
-  color: #fff;
-  padding: 10px 20px;
   border: none;
-  font-size: 18px;
-  border-radius: 4px;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .bootstrap .get{
   background-color: rgb(121, 82, 179);
-  color: #fff;
-  padding: 10px 20px;
   border: none;
-  font-size: 18px;
-  border-radius: 4px;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 2px;
 }
 .bootstrap .download{
   background-color: #fff;
-  color: rgb(108, 117, 125);
-  padding: 9px 20px;
   border: 1px solid rgb(108, 117, 125);
-  font-size: 18px;
-  border-radius: 4px;
+  padding: 7px 20px;
+  color: rgb(108, 117, 125);
+  font-size: 16px;
+  font-weight: bold;
 }
 .linkedin .apply{
   background-color: rgb(10, 102, 194);
   color: #fff;
-  padding: 10px 20px;
   border: none;
-  font-size: 18px;
+  padding: 8px 20px;
   border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .linkedin .save{
-  background-color: #fff;
-  color: rgb(10, 102, 194);
-  padding: 9px 20px;
   border: 1px solid rgb(10, 102, 194);
-  font-size: 18px;
+  padding: 7px 20px;
+  color: rgb(10, 102, 194);
   border-radius: 24px;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: bold;
 }
 .challenge{
   background-color: #fff;
   width: 400px;
-  margin-top: 8px;
-  padding: 10px 0;
+  margin: 20px auto;
+  padding: 20px;
 }
 .challenge a{
   color: rgb(0, 113, 133);
 }
-.challenge h1{
-  font-family: serif;
+.challenge h3{
+  margin: 10px 0;
+  font-family: Helvetica, sans-serif;
 }
-.challenge span{
+.challenge .price{
   color: rgb(0, 118, 0);
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 .challenge .add{
   background-color: rgb(255, 216, 20);
-  padding: 10px 30px;
   border: none;
-  font-size: 18px;
+  padding: 8px 30px;
   border-radius: 24px;
+  font-size: 16px;
 }
 .challenge .buy{
   background-color: rgb(255, 164, 28);
-  padding: 10px 30px;
   border: none;
-  font-size: 18px;
+  padding: 8px 30px;
   border-radius: 24px;
+  font-size: 16px;
 }
