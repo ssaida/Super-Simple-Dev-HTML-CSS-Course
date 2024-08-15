@@ -9,148 +9,141 @@ body{
 }
 .uber, .amazon, .github, .bootstrap, .linkedin{
   display: inline-block;
-  padding: 10px;
   background-color: #fff;
+  padding: 10px;
+  margin: 8px 0;
 }
 .uber button{
+  padding: 8px 20px;
   background-color: #000;
   color: #fff;
-  padding: 8px 20px;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
-  transition: background-color 0.4s;
+  transition: opacity 0.15s;
 }
 .uber button:hover{
-  background-color: #686868;
+  opacity: 0.5;
 }
 .amazon button{
-  background-color: rgb(255, 216, 20);
+  background-color: rgba(255, 216, 20, 1);
   border: none;
+  padding: 8px 30px;
   border-radius: 24px;
-  color: #000;
-  padding: 8px 24px;
-  font-size: 18px;
-  transition: opacity 0.4s;
+  font-size: 16px;
 }
 .amazon button:hover{
-  opacity: 0.8;
-  /* background-color: rgb(252, 221, 66); */
-}
-.amazon button:active{
-  opacity: 0.5;
-  /* background-color: rgb(255, 232, 120); */
+  background-color: rgba(255, 216, 20, 0.7);
 }
 .github button{
   background-color: rgb(46, 164, 79);
   border: none;
-  border-radius: 4px;
   color: #fff;
-  padding: 8px 16px;
-  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-size: 16px;
   font-weight: bold;
-  transition: background-color 0.4s;
+  transition: box-shadow 0.5s;
 }
 .github button:hover{
-  background-color: rgb(113, 214, 143);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
+
 .bootstrap .get{
   background-color: rgb(121, 82, 179);
-  border: 1px solid rgb(121, 82, 179);
-  border-radius: 4px;
+  border: none;
+  padding: 8px 20px;
   color: #fff;
-  padding: 8px 16px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  border-radius: 2px;
+  transition: background-color 0.4s;
 }
 .bootstrap .get:hover{
-  background-color: rgb(166, 129, 221);
+  background-color: rgba(121, 82, 179, 0.7);
 }
 .bootstrap .download{
   background-color: #fff;
   border: 1px solid rgb(108, 117, 125);
+  padding: 7px 20px;
   color: rgb(108, 117, 125);
-  border-radius: 4px;
-  padding: 8px 16px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   transition: background-color 0.4s, color 0.4s;
 }
 .bootstrap .download:hover{
-  background-color:  rgb(108, 117, 125);
+  background-color: rgb(108, 117, 125);
   color: #fff;
 }
 .linkedin .apply{
   background-color: rgb(10, 102, 194);
   color: #fff;
   border: none;
+  padding: 8px 20px;
   border-radius: 24px;
-  padding: 8px 24px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  transition: background-color 0.4s;
+  transition: background-color 0.15s;
 }
 .linkedin .apply:hover{
-  background-color: rgb(10, 83, 156);
+  background-color: rgba(10, 102, 194, 0.8);
 }
 .linkedin .save{
-  background-color: #fff;
-  color: rgb(10, 102, 194);
   border: 1px solid rgb(10, 102, 194);
+  padding: 7px 20px;
+  color: rgb(10, 102, 194);
   border-radius: 24px;
-  padding: 8px 24px;
-  font-size: 18px;
+  background-color: inherit;
+  font-size: 16px;
   font-weight: bold;
-  transition: background-color 0.4s, color 0.4s;
+  transition: border-width 0.1s;
 }
 .linkedin .save:hover{
-  background-color: rgb(10, 102, 194);
-  color: #fff;
+  border-width: 2px;
 }
 .challenge{
-  padding: 10px ;
-  display: block;
   background-color: #fff;
   width: 400px;
-  margin-top: 10px;
+  margin: 20px auto;
+  padding: 20px;
 }
 .challenge a{
   color: rgb(0, 113, 133);
 }
-.challenge a:hover{
+.challenge a{
   color: brown;
 }
-.challenge h2{
-  margin: 8px 0;
+.challenge h3{
+  margin: 10px 0;
+  font-family: Helvetica, sans-serif;
 }
 .challenge .price{
   color: rgb(0, 118, 0);
-  margin: 10px 0;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 .challenge .add{
   background-color: rgb(255, 216, 20);
   border: none;
+  padding: 8px 30px;
   border-radius: 24px;
-  color: #000;
-  padding: 8px 24px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .challenge .add:hover{
-  background-color: rgb(255, 224, 66);
+  background-color: rgb(253, 226, 88);
 }
 .challenge .add:active{
-  background-color: rgb(255, 231, 111);
+  background-color: rgb(250, 236, 166);
 }
 .challenge .buy{
   background-color: rgb(255, 164, 28);
   border: none;
+  padding: 8px 30px;
   border-radius: 24px;
-  color: #000;
-  padding: 8px 24px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .challenge .buy:hover{
-  background-color: rgb(255, 183, 75);
+  background-color: rgb(252, 193, 104);
 }
 .challenge .buy:active{
-  background-color: rgb(255, 199, 115);
+  background-color: rgb(248, 211, 157);
 }
