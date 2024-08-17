@@ -1,80 +1,104 @@
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  background-color: silver;  
+  background-color: silver;
   font-family: sans-serif;
-} 
-.a, .d{
+}
+.a, .b, .c{
   background-color: #fff;
-  display: inline-block;
-  padding: 10px;
-  width: 300px;
-}
-.a img{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  background-position: center;
-  border-radius: 50%;
-}
-.d input{
-  width: 100%;
-  border: none;
-  box-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
-  border-radius: 24px;
-  padding: 8px 20px;
-}
-.f{
-  background-color: #fff;
-  width: 500px;
-  margin: 8px;
+  width: 400px;
+  text-align: center;
   padding: 8px;
 }
-.f *{
-  margin-bottom: 8px;
+.a img{
+  width: 70%;
+  border-radius: 8px;
 }
-.f input{
-  width: 100%;
-  padding: 8px 20px;
-  border: 2px solid #000;
-  font-size: 18px;
-  border-radius: 4px;
+.b img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
-.f button{
-  width: 100%;
-  border: none;
-  border-radius: 24px;
-  background-color: rgb(45, 45, 221);
-  color: #fff;
-  padding: 8px 20px;
-  font-size: 18px;
+.c img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 150px;
 }
-.g{
-  display: inline-block;
+.e{
+  width: 80%;
+  margin: 8px auto;
   background-color: #fff;
-  width: 420px;
-  padding: 10px;
+  padding: 20px;
 }
-.g img{
+.e input{
+  border: none;
+  width: 100%;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+}
+.challenge{
+  background-color: #fff;
+  padding: 10px;
+  margin-block: 10px;
+}
+.challenge .linkedin{
+  display: inline-block;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+.challenge .linkedin label{
+  display: block;
+}
+.challenge .linkedin input{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: 2px solid #000;
+}
+.challenge .linkedin button{
+  background-color: rgb(118, 118, 202);
+  color: #fff;
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  margin-top: 8px;
+}
+.challenge .tweeter{
+  display: inline-block;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+.challenge .tweeter img{
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 30px;
   vertical-align: middle;
 }
-
-.g input{
+.challenge .tweeter input{
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 8px;
 }
-button{
-  background-color: blue;
+.challenge .tweeter button{
+  background-color: rgb(88, 88, 182);
   color: #fff;
-  padding: 8px 20px;
   border: none;
+  padding: 8px 20px;
+  font-size: 16px;
   border-radius: 24px;
   font-weight: bold;
 }
