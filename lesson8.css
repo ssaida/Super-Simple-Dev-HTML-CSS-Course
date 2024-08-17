@@ -35,7 +35,7 @@ body{
   padding: 8px;
 }
 .c-google-logo img{
-  width: 60%;
+  width: 40%;
   display: block;
   margin: 0 auto;
 }
@@ -48,6 +48,18 @@ body{
   margin: 0 auto;
   display: block;
   font-size: 16px;
+}
+.c-google-logo .buttons{
+  margin: 0 auto;
+  text-align: center;
+  margin: 8px;
+}
+.c-google-logo .buttons button{
+  background-color: rgb(206, 200, 200);
+  border: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  
 }
 .challenge{
   background-color: #fff;
