@@ -8,72 +8,84 @@ body{
   font-family: sans-serif;
 }
 .a{
+  background-color: #fff;
+  margin: 8px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.b{
+  background-color: #fff;
+  margin: 8px;
   width: 100px;
   height: 100px;
   background-color: red;
-  margin: 10px;
-}
-.b{ width: 100px;
-  height: 100px;
   border-radius: 50px;
-  background-color: green;
-  margin: 10px;
 }
 .c{
-  margin: 10px 0;
   background-color: #fff;
-  padding: 10px;
-  border: 1px solid #000;
-  display: inline-block;
+  margin: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 .d{
-  margin: 10px 0;
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border: 1px solid #000;
-  display: inline-block;
-  width: 400px;
-}
-.e{
-  width: 400px;
   background-color: #fff;
+  width: 300px;
+  background-color: #333;
+  color: #fff;
   padding: 8px;
 }
-.e img{
+ .tweeter{
+  display: inline-block;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+ .tweeter img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
   vertical-align: middle;
-  width: 70px;
-  height: 70px;
-  border-radius: 35px;
 }
-.e input{
+ .tweeter input{
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 8px;
+  padding: 8px;
+  border-radius: 24px;
 }
-.e button{
+ .tweeter button{
+  background-color: rgb(88, 88, 182);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+  font-weight: bold;
+}
+.challenge{
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+}
+.challenge .box{
+  width: 300px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 4px;
+}
+.challenge .box img{
+  width: 100%;
+  
+}
+.challenge .box button{
   background-color: blue;
   color: #fff;
   padding: 8px 20px;
-  border: none;
-  border-radius: 24px;
   font-size: 16px;
-}
-.challenge{
-  display: inline-block;
-  background-color: #fff;
-  width: 200px;
-  padding: 4px;
-  margin: 8px 0;
-}
-.challenge .picture img{
-  width: 100%;
-}
-.challenge button{
-  background-color: rgb(57, 81, 221);
-  color: #fff;
-  padding: 8px 20px;
-  margin: 8px 0;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
 }
