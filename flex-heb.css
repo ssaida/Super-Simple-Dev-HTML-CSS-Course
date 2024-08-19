@@ -6,29 +6,24 @@
 body{
   background-color: silver;
   font-family: sans-serif;
-} 
+}
 .parent{
-  width: 400px;
-  padding: 20px;
-  background-color: #fff;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: wrap;
-  align-content: center ;
+  border: 1px solid #fff;
+  height: 100vh;
 }
-.parent .child{
+.parent > .child{
   width: 100px;
-  height: 100px;
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #333;
 }
-.parent .child:nth-child(1){
-  background-color: red;
-}
-.parent .child:nth-child(2){
+.child:nth-child(1){
   background-color: blue;
 }
-.parent .child:nth-child(3){
+.child:nth-child(2){
+  background-color: red;
+}
+.child:nth-child(3){
   background-color: green;
 }
