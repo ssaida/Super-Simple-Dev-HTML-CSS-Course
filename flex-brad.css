@@ -84,3 +84,12 @@ footer .box h3{
 footer .box p{
   text-align: justify;
 }
+@media (max-width:768px) {
+  header .container,
+  main .container,
+  footer .boxes{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
