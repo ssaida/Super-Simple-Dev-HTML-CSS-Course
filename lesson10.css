@@ -64,3 +64,42 @@ body{
 .c .info h3, .c .info .channel{
   margin: 8px 0;
 }
+.challenge{
+  background-color: #fff;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+.challenge .col{
+  padding: 1px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+.challenge .col .image{
+  padding: 2px;
+  width: 100%;
+}
+.challenge .col .image img{
+  width: 200px;
+}
+.challenge .info img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.challenge .info p{
+  display: inline-block;
+}
+.challenge .info button{
+  background-color: steelblue;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 0;
+}
