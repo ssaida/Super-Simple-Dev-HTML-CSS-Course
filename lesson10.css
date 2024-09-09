@@ -8,91 +8,59 @@ body{
   font-family: sans-serif;
 }
 .a{
+  display: inline-block;
   background-color: #fff;
-  width: 400px;
-  padding: 8px;
-  margin: 2px 0;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 2px;
 }
 .a .picture{
-  width: 20%;
-  padding: 2px;
-  margin: 2px;
   display: inline-block;
+  padding: 4px;
   vertical-align: middle;
 }
 .a .picture img{
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  object-fit: cover;
+  
 }
 .a .info{
+  flex: 1;
   display: inline-block;
+  display: 300px;
   vertical-align: middle;
 }
 .a button{
-  margin-left: 110px;
-  background-color: rgb(110, 110, 223);
+  background-color: steelblue;
   color: #fff;
-  border: none;
   padding: 8px 20px;
-  border-radius: 2px;
-  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
   font-weight: bold;
 }
 .c{
+  display: inline-block;
   background-color: #fff;
   width: 600px;
-  padding: 4px;
-  margin: 8px 0;
+  margin: 4px 0;
+  padding: 4px 2px;
 }
-.c img{
+.c .image{
   width: 250px;
   display: inline-block;
 }
+.c .image img{
+  width: 100%;
+}
 .c .info{
   display: inline-block;
-  width: 330px;
+  width: 300px;
   vertical-align: top;
 }
-.c .info h3{
-  line-height: 1.5;
-}
-.c .info p{
-  margin-top: 8px;
-  color: rgb(96, 96, 96);
-  line-height: 1.5;
-}
-.challenge{
-  background-color: #fff;
-  padding: 8px;
-}
-.challenge .col{
-  width: 300px;
-  display: inline-block;
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
-}
-.challenge .col img{
-  width: 100%;
-  padding: 2px;
-}
-.challenge .col .info p{
-  display: inline-block;
-  vertical-align: middle;
-}
-.challenge .col .info img{
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  vertical-align: middle;
-  object-fit: cover;
-}
-.challenge .col .info button{
-  background-color: blue;
-  color: #fff;
-  border: none;
-  padding: 8px 20px;
-  margin: 4px 0;
-  border-radius: 2px;
-  font-size: 16px;
+.c .info h3, .c .info .channel{
+  margin: 8px 0;
 }
