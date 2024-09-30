@@ -125,6 +125,12 @@ body{
   font-size: 16px;
   transition: background-color 0.2s;
 }
+.challenge .add:hover{
+  background-color: rgb(235, 204, 52);
+}
+.challenge .add:active{
+  background-color: rgb(202, 181, 72);
+}
 .challenge .buy{
   padding: 8px 20px;
   border: none;
@@ -132,4 +138,13 @@ body{
   border-radius: 24px;
   font-size: 16px;
   transition: background-color 0.2s;
+}
+.challenge .buy:hover{
+  background-color: rgb(228, 155, 45);
+}
+.challenge .buy:active{
+  background-color: rgb(202, 146, 61);
+}
+.challenge a:hover{
+  color: brown;
 }
