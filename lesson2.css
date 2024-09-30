@@ -99,10 +99,37 @@ body{
   color: rgb(10, 102, 194);
   font-size: 16px;
   font-weight: bold;
-  border-radius: 24px;
+  border-radius: 24px;  
   font-size: 16px; 
   transition: border 0.2s;
 }
 .linkedin .save:hover{
   border: 2px solid rgb(10, 102, 194);
+}
+.challenge{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.challenge a{
+  color: rgb(0, 113, 133);
+}
+.challenge .price{
+  color: rgb(0, 118, 0);
+}
+.challenge .add{
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(255, 216, 20);
+  border-radius: 24px;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+.challenge .buy{
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(255, 164, 28);
+  border-radius: 24px;
+  font-size: 16px;
+  transition: background-color 0.2s;
 }
