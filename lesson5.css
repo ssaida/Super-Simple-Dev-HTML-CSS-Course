@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b, .c, .d{
+  background-color: #fff;
+  width: 350px;
+  padding: 10px;
+  display: inline-block;
+}
+.a h3{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.b .sales{
+  color: red;
+  font-style: italic;
+}
+.c h3{
+  color: gray;
+  font-weight: 400;
+}
+.c p{
+  margin: 8px 0;
+}
+.c button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+}
+.d{
+  text-align: center;
+  padding: 20px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.d p{
+  margin: 8px 0;
+}
+.challenge{
+  background-color: #fff;
+  padding: 10px;
+}
+.challenge .e{
+  background-color: rgb(209, 209, 209);
+  display: inline-block;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.challenge .e .new{
+  color: gold;
+}
+.challenge .e button{
+  background-color: rgb(111, 111, 218);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.challenge .f{
+  background-color: lightgray;
+  margin: 4px 0;
+  width: 400px;
+  padding: 10px;
+}
+.challenge .f .price{
+  font-size: 20px;
+}
+.challenge .f .usd{
+  color: gray;
+}
+.challenge .f .green{
+  color: green;
+}
+.challenge .f .red{
+  color: red;
+}
+.challenge .g{
+  background-color: rgb(255, 255, 255);
+  margin: 4px 0;
+  width: 400px;
+  padding: 10px;
+}
+.challenge .hash{
+  color: lightgray;
+}
+.challenge p{
+  margin-bottom: 4px;
+}
+.challenge .g .chp{
+  color: blue;
+}
