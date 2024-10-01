@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.h, .i, .j, .k{
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 4px;
+}
+.h button{
+  padding: 8px 20px;
+}
+.i button{
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  transition: padding 0.5s;
+}
+.i button:hover{
+  cursor: pointer;
+  padding: 20px 30px;
+}
+.j button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  transition: padding 0.5s;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.j button:active{
+  box-shadow: none;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.k button{
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  transition: padding 0.5s;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer; 
+  transition: padding-left 0.4s, padding-right 0.4s;
+}
+.k button:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+}
