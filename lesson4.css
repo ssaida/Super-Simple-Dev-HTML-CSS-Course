@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.h{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin: 4px 0;
+}
+.h button{
+  padding: 4px 10px;
+}
+.i{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.i button{
+  padding: 4px 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: #fff;
+  transition: padding 0.9s;
+}
+.i button:hover{
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.j{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.j button{
+  padding: 4px 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: #fff;
+  transition: box-shadow 0.9s;
+}
+.j button:hover{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.k{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.k button{
+  padding: 4px 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  transition: padding 0.9s;
+}
+.k button:hover{
+  cursor: pointer;
+  padding: 4px 20px; 
+}
