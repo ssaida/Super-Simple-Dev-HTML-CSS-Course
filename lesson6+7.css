@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b, .c, .d, .e, .f, .g{
+  display: inline-block;
+  width: 400px;
+  background-color: #fff;
+  padding: 8px;
+  margin: 4px;
+}
+.a img{
+  width: 200px;
+  border-radius: 8px;
+}
+.b img{
+  width: 200px;
+}
+.c img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.d input{
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+.e input{
+  width: 350px;
+  padding: 8px 20px;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  border-radius: 24px;
+  font-size: 18px;
+}
+.f input{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+}
+.f button{
+  margin-top: 4px;
+  background-color: rgb(61, 135, 247);
+  color: #fff;
+  padding: 8px 20px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 24px;
+}
+.g img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.g input{
+  width: 200px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+}
+.g button{
+  background-color: rgb(61, 135, 247);
+  color: #fff; 
+  border: none;
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-size: 18px;
+  
+}
