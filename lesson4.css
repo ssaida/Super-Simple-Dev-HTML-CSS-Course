@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.h, .i, .j, .k{
+  background-color: #fff;
+  padding: 8px;
+  display: inline-block;
+}
+.h button, .i button, .j button, .k button{
+  background-color: green;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: padding 0.8s, box-shadow 0.8s;
+}
+.i button:hover{
+  padding: 12px 28px;
+}
+.j button:hover{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.k button:hover{
+  padding: 8px 30px;
+}
