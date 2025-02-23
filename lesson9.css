@@ -7,88 +7,104 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
-.b{
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  border-radius: 50px;
-  margin: 4px;
-}
 .a{
   width: 100px;
   height: 100px;
+  background-color: green;
+}
+.b{
+  width: 100px;
+  height: 100px;
   background-color: red;
-  border-radius: 50px;
-  margin: 4px;
+  border-radius: 50%;
 }
 .c{
-  border: 4px solid #333;
-  display: inline-block;
-  padding: 8px;
-  background-color: #eee;
-  vertical-align: middle;
-}
-.c button{
-  padding: 4px 10px;
+ background-color: #fff; 
+ margin: 4px 0;
+ display: inline-block;
+ padding: 4px;
 }
 .d{
   background-color: #333;
-  display: inline-block;
-  width: 400px;
   color: #fff;
   padding: 8px;
-  vertical-align: middle;
+  display: block;
+  width: 500px;
 }
 .e{
   background-color: #fff;
   display: inline-block;
-  width: 450px;
-  margin: 4px;
+  width: 400px;
+  padding: 8px;
+  margin: 4px 0;
 }
 .e img{
   width: 80px;
   height: 80px;
+  object-fit: cover;
   border-radius: 50%;
   vertical-align: middle;
 }
 .e input{
+  width: 200px;
   padding: 8px 20px;
-  font-size: 16px;
   border: none;
   border-radius: 24px;
+  font-size: 16px;
 }
 .e button{
-  background-color: rgb(45, 45, 100);
+  background-color: rgb(76, 76, 134);
   color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.f{
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 4px;
+}
+.f .col{
+  width: 200px;
+  padding: 4px;
+  display: inline-block;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.f .col img{
+  width: 100%;
+}
+.f button{
+  background-color: rgb(76, 76, 134);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.google{
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  margin: 0 auto;
+}
+.google input{
+  display: block;
+  margin: 8px auto;
+  width: 500px;
   padding: 8px 20px;
   border: none;
   border-radius: 24px;
-  font-size: 18px;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-.challenge{
-  background-color: #fff;
-  padding: 8px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.challenge .col{
-  width: 300px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  padding: 2px;
-}
-
-.challenge .col .image img{
-  width: 100%;
-}
-.challenge .col p{
-  margin: 4px 0;
-}
-.challenge .col button{
-  background-color: rgb(77, 77, 122);
-  color: #fff;
+.google button{
+  background-color: rgb(204, 204, 204);
   padding: 8px 20px;
   border: none;
-  border-radius: 4px;
   font-size: 16px;
+  
 }
