@@ -38,3 +38,49 @@ body{
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
   font-size: 16px;
 }
+.d, .e{
+  background-color: #fff;
+  display: block;
+  width: 300px;
+  padding: 8px;
+  margin: 8px 0;
+}
+.d input[type="text"]{
+  width: 138px;
+  display: inline-block;
+  padding: 8px 20px;
+}
+.d input[type="email"]{
+  width: 99%;
+  padding: 8px 20px;
+  margin: 4px 0;
+}
+.d button{
+  width: 98%;
+  background-color: rgb(43, 128, 177);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.e input{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 4px 0;
+  font-size: 16px;
+}
+.e .request{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: none;
+}
+.e .later{
+  background-color: rgb(199, 199, 199);
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+}
