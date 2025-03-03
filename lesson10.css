@@ -58,3 +58,35 @@ body{
 .c .row .info h3, .c p{
   margin-bottom: 10px;
 }
+.e{
+  background-color: #fff;
+  padding: 4px;
+  margin: 4px 0;
+}
+.e .col{
+  display: inline-block;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+.e .col .image img{
+  width: 100%;
+}
+.e .col .info .data img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+.e .col .info .data p{
+  display: inline-block;
+  vertical-align: middle;
+}
+.e .col button{
+  background-color: rgb(76, 76, 168);
+  padding: 8px 20px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 4px 0;
+}
