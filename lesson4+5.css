@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b, .c, .d, .e, .f, .g{
+  background-color: #fff;
+  display: block;
+  width: 500px;
+  margin: 8px 0;
+  padding: 20px;
+}
+.a{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.b{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.b p{
+  color: red;
+  font-style: italic;
+}
+.c{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c .gray{
+  color: gray;
+}
+.c button{
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+.d{
+  text-align: center;
+}
+.d p{
+  margin: 8px 0;
+}
+.e{
+  text-align: center;
+}
+.e .new{
+  color: orange;
+}
+.e button{
+  background-color: rgb(65, 65, 114);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.f .usd span{
+  color: gray;
+  font-size: 14px;
+}
+.f .green{
+  color: green;
+}
+.f .after{
+  color: red;
+}
+.g .hash{
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+}
+.g .chp{
+  color: blue;
+}
