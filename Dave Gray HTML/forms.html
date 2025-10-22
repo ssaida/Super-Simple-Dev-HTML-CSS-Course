@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="forms.css">
   <title>Document</title>
 </head>
 <body>
@@ -10,10 +11,66 @@
     <h2>HTML Forms</h2>
   </header>
   <section id="myForm">
-    <p>
+    <form action="http://httpbin.org" method="get">
+      <p>
       <label for="name">Name</label>
       <input type="text" name="name" id="name" placeholder="Name" autocomplete="on" autofocus required>
     </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email" autocomplete="on" required>
+    </p>
+    <p>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Password">
+    </p>
+    <p>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" placeholder="Age" min="1900" max="2020" step="10"> 
+    </p>
+    <p>
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" placeholder="Date">
+    </p>
+    <p>
+      <label for="phone">Phone</label>
+      <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    </p>
+    <p>
+      <label for="bio">Bio</label>
+      <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+      <label for="pet">Pet</label>
+      <input type="radio" name="pet" id="pet" value="dog">Dog
+      <input type="radio" name="pet" id="pet" value="cat">Cat
+      <input type="radio" name="pet" id="pet" value="snake">Snake
+    </p>
+    <p>
+      <label for="food">Food</label>
+      <input type="checkbox" name="food" id="food" value="rice">Rice
+      <input type="checkbox" name="food" id="food" value="Mashawe">Mashawe
+      <input type="checkbox" name="food" id="food" value="laban">Laban
+    </p>
+    <p>
+      <label for="coffee">Coffee</label>
+      <select name="coffee" id="coffee">
+        <option disabled selected>Choose Coffee</option>
+        <optgroup label="Arabic Coffee">
+          <option value="sadah">Sadah</option>
+          <option value="Arabia">Arabia</option>
+        </optgroup>
+        <optgroup label="Over Sees Coffee">
+          <option value="capputino">Capputino</option>
+          <option value="americano">Americano</option>
+        </optgroup>
+      </select>
+    </p>
+    <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </p>
+    </form>
   </section>
 </body>
 </html>

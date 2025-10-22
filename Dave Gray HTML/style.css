@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+table, caption, th, tr, td{
+  border: 1px solid #000;
+  text-align: center;
+  padding: 4px;
+}
+label{
+  display: block;
+  font-size: 16px;
+}
+input{
+  padding: 8px 20px;
+
+}
+button{
+  background-color: #777;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 20px;
+}
