@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+  accent-color: rgb(252, 131, 181);
+}
+header{
+  background-color: black;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+header h3{
+  color: #fff;
+}
+header li{
+  display: inline;
+}
+i{
+  color: #fff;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+}
