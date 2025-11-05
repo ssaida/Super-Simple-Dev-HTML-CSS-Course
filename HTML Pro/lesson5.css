@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a ,.b, .c, .d, .e, .f{
+  background-color: #fff;
+  margin: 8px 0;
+  padding: 8px;
+  width: 300px;
+}
+.a{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.b p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-style: italic;
+}
+.c{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c .pro{
+  color: gray;
+}
+.c button{
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-top: 2px;
+}
+.d{
+  text-align: center;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.d p{
+  margin: 4px 0;
+}
+.e{
+  text-align: center;
+}
+.e .new{
+  color: rgb(255, 168, 7);
+}
+.e button{
+  background-color: blue;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+}
+.f .usd{
+  color: gray;
+  font-size: 14px;
+}
+.f .green{
+  color: green;
+}
+.f .red{
+  color: red;
+}
+.g h3, .g .gray{
+  display: inline-block;
+}
+.g .gray{
+  color: rgb(68, 68, 68);
+  margin-left: 4px;
+}
+.chp{
+  color: blue;
+}
