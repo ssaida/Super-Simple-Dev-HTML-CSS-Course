@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+}
+.thumbnail{
+  width: 300px;
+}
+.a, .b, .c, .d, .e{
+  background-color: #fff;
+  width: 400px;
+  margin: 4px 0;
+}
+.a img{
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px
+}
+.b img{
+  width: 80%;
+}
+.c img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.d input{
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.e input{
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  margin: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.f, .g{
+  background-color: #fff;
+  width: 450px;
+  padding: 8px;
+}
+.f label{
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f input{
+  padding: 8px 20px;
+  width: 93%;
+  border-radius: 4px;
+}
+.f button{
+  background-color: rgb(67, 67, 192);
+  color: #fff;
+  width: 90%;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+  font-weight: bold;
+}
+.g img{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+.g input{
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+}
+.g button{
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-weight: bold;
+}
