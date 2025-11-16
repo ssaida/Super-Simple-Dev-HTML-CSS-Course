@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("/Youtube/Assets/thumbnail-1.webp");
+  background-repeat: no-repeat;
+}
+
+.box{
+  background-color: rgba(0, 0, 0, 0.4);
+}

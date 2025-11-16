@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b, .c, .form, .uber{
+  background-color: #fff;
+  margin: 4px 0;
+  padding: 8px;
+  max-width: 400px;
+}
+.a input{
+  display: block;
+  margin: 4px 0;
+  padding: 4px 10px;
+}
+.b p{
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+.b button{
+  display: inline-block;
+  padding: 4px 10px;
+}
+.c .logo{
+  text-align: center;
+}
+.c .logo img{
+  width: 200px;
+}
+.c .search{
+  text-align: center;
+}
+.c .search input{
+  padding: 8px 20px;
+  border-radius: 24px;
+  border: none;
+  width: 300px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.form input[type="text"]{
+  padding: 4px 20px;
+  width: 48%;
+}
+
+.form input[type="email"]{
+  display: block;
+  width: 97%;
+  margin: 4px 0;
+  padding: 4px 20px;
+}
+.form button{
+  background-color: rgb(84, 84, 133);
+  color: #fff;
+  padding: 8px 20px;
+  width: 100%;
+  margin: 4px 0;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold; 
+}
+.uber h3{
+  font-weight: normal;
+  font-size: 24px;
+}
+.uber .location{
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 20px;
+  margin: 4px 0;
+}
+.uber .destination{
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 20px;
+  margin: 4px 0;
+}
+.uber button{
+  background-color: lightgray;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+}
